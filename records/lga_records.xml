@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Define the Country -->
+        <record id="lga_umu" model="state.lga">
+            <field name="name">Umuahia North</field>
+            <field name="state_id" ref="state_ab"/>
+        </record>
+    </data>
+</odoo>
